@@ -73,9 +73,6 @@ a9 = st.number_input("กรุณาเลือกข้อมูล a9")
 a10 = st.number_input("กรุณาเลือกข้อมูล a10")
 a11 = st.number_input("กรุณาเลือกข้อมูล a11")
 
-sp_len = st.number_input("กรุณาเลือกข้อมูล sepal.length")
-sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.width")
-
 if st.button("ทำนายผล"):
     #st.write("ทำนาย")
     #dt = pd.read_csv("./data/iris-3.csv") 
