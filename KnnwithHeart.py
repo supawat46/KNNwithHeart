@@ -78,7 +78,7 @@ sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.
 
 if st.button("ทำนายผล"):
     #st.write("ทำนาย")
-   dt = pd.read_csv("./data/iris-3.csv") 
+    #dt = pd.read_csv("./data/iris-3.csv") 
    X = dt.drop('HeartDisease', axis=1)
    y = dt.HeartDisease   
 
@@ -91,8 +91,8 @@ if st.button("ทำนายผล"):
    out=Knn_model.predict(x_input)
 
    if out[0] == 1:
-    st.image("./img/h1.jpg")
+    st.image("./img/heart1.jpg")
    else:
-    st.image("./img/h3.jpg")
+    st.image("./img/heart2.jpg")
 else:
     st.write("ไม่ทำนาย")
